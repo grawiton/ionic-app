@@ -1,0 +1,14 @@
+﻿<ion-view view-title="Program TV">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="list in lists.lists" href="#/app/lists/{{list.id}}">
+          <ion-avatar>
+              <img src="{{list.nameStation}}" />
+          </ion-avatar>
+          <h2>{{list.title}}</h2>
+        {{list.startDate}}
+        {{list.endDate}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

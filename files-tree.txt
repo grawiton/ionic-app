@@ -1,0 +1,212 @@
+app
+|   index.html
+| 	files-tree.txt
+|   
++---css
+|       ionic.app.css
+|       ionic.app.min.css
+|       minimalist.css
+|       style.css
+|       
++---img
+|       ionic.png
+|       tvp1.png
+|       tvp2.png
+|       
++---js
+|       app.js
+|       app.js.map
+|       controllers.js
+|       controllers.js.map
+|       flowplayer.hlsjs.min.js
+|       flowplayer.min.js
+|       jquery-1.12.4.min.js
+|       platformOverrides.js
+|       services.js
+|       services.js.map
+|       
++---lib
+|   +---angular
+|   |       .bower.json
+|   |       angular-csp.css
+|   |       angular.js
+|   |       angular.min.js
+|   |       angular.min.js.gzip
+|   |       angular.min.js.map
+|   |       bower.json
+|   |       index.js
+|   |       package.json
+|   |       README.md
+|   |       
+|   +---angular-animate
+|   |       .bower.json
+|   |       angular-animate.js
+|   |       angular-animate.min.js
+|   |       angular-animate.min.js.map
+|   |       bower.json
+|   |       index.js
+|   |       package.json
+|   |       README.md
+|   |       
+|   +---angular-sanitize
+|   |       .bower.json
+|   |       angular-sanitize.js
+|   |       angular-sanitize.min.js
+|   |       angular-sanitize.min.js.map
+|   |       bower.json
+|   |       index.js
+|   |       package.json
+|   |       README.md
+|   |       
+|   +---angular-ui-router
+|   |   |   .bower.json
+|   |   |   bower.json
+|   |   |   CHANGELOG.md
+|   |   |   CONTRIBUTING.md
+|   |   |   LICENSE
+|   |   |   README.md
+|   |   |   
+|   |   +---api
+|   |   |       angular-ui-router.d.ts
+|   |   |       
+|   |   +---release
+|   |   |       angular-ui-router.js
+|   |   |       angular-ui-router.min.js
+|   |   |       
+|   |   \---src
+|   |           common.js
+|   |           resolve.js
+|   |           state.js
+|   |           stateDirectives.js
+|   |           stateFilters.js
+|   |           templateFactory.js
+|   |           urlMatcherFactory.js
+|   |           urlRouter.js
+|   |           view.js
+|   |           viewDirective.js
+|   |           viewScroll.js
+|   |           
+|   +---flowplayer
+|   |   |   embed.min.js
+|   |   |   flowplayer.js
+|   |   |   flowplayer.min.js
+|   |   |   flowplayer.swf
+|   |   |   flowplayerhls.swf
+|   |   |   index.html
+|   |   |   license.txt
+|   |   |   README
+|   |   |   
+|   |   \---skin
+|   |       |   all-skins.css
+|   |       |   functional.css
+|   |       |   minimalist.css
+|   |       |   playful.css
+|   |       |   
+|   |       +---fonts
+|   |       |       fpicons.eot
+|   |       |       fpicons.svg
+|   |       |       fpicons.ttf
+|   |       |       fpicons.woff
+|   |       |       
+|   |       \---img
+|   |               black.png
+|   |               black@x2.png
+|   |               black_rtl.png
+|   |               black_rtl@x2.png
+|   |               flowplayer.png
+|   |               flowplayer@2x.png
+|   |               playful_black.png
+|   |               playful_black@x2.png
+|   |               playful_black_rtl.png
+|   |               playful_black_rtl@x2.png
+|   |               playful_white.png
+|   |               playful_white@x2.png
+|   |               playful_white_rtl.png
+|   |               playful_white_rtl@x2.png
+|   |               play_black.png
+|   |               play_black@x2.png
+|   |               play_black_rtl.png
+|   |               play_black_rtl@x2.png
+|   |               play_white.png
+|   |               play_white@x2.png
+|   |               play_white_rtl.png
+|   |               play_white_rtl@x2.png
+|   |               white.png
+|   |               white@x2.png
+|   |               white_rtl.png
+|   |               white_rtl@x2.png
+|   |               
+|   \---ionic
+|       |   .bower.json
+|       |   bower.json
+|       |   README.md
+|       |   
+|       +---css
+|       |       ionic.css
+|       |       ionic.min.css
+|       |       
+|       +---fonts
+|       |       ionicons.eot
+|       |       ionicons.svg
+|       |       ionicons.ttf
+|       |       ionicons.woff
+|       |       
+|       +---js
+|       |       ionic-angular.js
+|       |       ionic-angular.min.js
+|       |       ionic.bundle.js
+|       |       ionic.bundle.min.js
+|       |       ionic.js
+|       |       ionic.min.js
+|       |       
+|       \---scss
+|           |   ionic.scss
+|           |   tsconfig.json
+|           |   _action-sheet.scss
+|           |   _animations.scss
+|           |   _backdrop.scss
+|           |   _badge.scss
+|           |   _bar.scss
+|           |   _button-bar.scss
+|           |   _button.scss
+|           |   _checkbox.scss
+|           |   _form.scss
+|           |   _grid.scss
+|           |   _items.scss
+|           |   _list.scss
+|           |   _loading.scss
+|           |   _menu.scss
+|           |   _mixins.scss
+|           |   _modal.scss
+|           |   _platform.scss
+|           |   _popover.scss
+|           |   _popup.scss
+|           |   _progress.scss
+|           |   _radio.scss
+|           |   _range.scss
+|           |   _refresher.scss
+|           |   _reset.scss
+|           |   _scaffolding.scss
+|           |   _select.scss
+|           |   _slide-box.scss
+|           |   _slides.scss
+|           |   _spinner.scss
+|           |   _tabs.scss
+|           |   _toggle.scss
+|           |   _transitions.scss
+|           |   _type.scss
+|           |   _util.scss
+|           |   _variables.scss
+|           |   
+|           \---ionicons
+|                   ionicons.scss
+|                   _ionicons-font.scss
+|                   _ionicons-icons.scss
+|                   _ionicons-variables.scss
+|                   
+\---templates
+        list-details.html
+        lists.html
+        login.html
+        menu.html
+        
